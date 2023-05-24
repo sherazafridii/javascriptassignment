@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice2</title>
+</head>
+<body>
+
+    <script>
+        var english = parseInt(prompt("enter english marks"));
+        var math = parseInt(prompt("enter math marks"));
+        var physics = parseInt(prompt("enter physics marks"));
+
+
+        function percentage(num1, num2, num3){
+            var x = num1 + num2 + num3;
+            var z = x / 300 * 100 //percentage formula
+            return z;
+        }
+
+        var total = percentag(english, math, physics);
+        document.write("total percentage is :"+ total + "%")
+    </script>
+    
+</body>
+</html>
